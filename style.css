@@ -16,5 +16,30 @@
     }
 
     p {
-        color: #fff;
+        color: #8bb7b8;
+        font-weight: 700;;
+    }
+
+    /*
+      Left side design
+    */
+
+    #left {
+        background-color: #e28525;
+    }
+
+    /*
+      Center design
+    */
+
+    #center {
+        background-color: #016972;
+    }
+
+    /*
+      Right side design
+    */
+
+    #right {
+        background-color: #00403f;
     }
