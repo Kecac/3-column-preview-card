@@ -22,7 +22,7 @@
         font-weight: 700;
         line-height: 1.5;
         margin: 10% 0 40% 0;
-        font-size: 110%;
+        font-size: 3rem%;
     }
 
     /*
@@ -31,6 +31,8 @@
 
     #left {
         background-color: #e28525;
+        border-top-left-radius: 5%;
+        border-bottom-left-radius: 5%;
     }
 
 
@@ -48,6 +50,8 @@
 
     #right {
         background-color: #00403f;
+        border-top-right-radius: 5%;
+        border-bottom-right-radius: 5%;
     }
 
     #right > p {
@@ -59,3 +63,7 @@
     .attribution {
         text-align: center;
     }
+
+    /*
+      Media querys for mobile, width: 991px
+    */
