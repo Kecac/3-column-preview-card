@@ -8,16 +8,21 @@
     */
 
     #left ,#right , #center {
-        background-color: grey;
+        padding: 5% 5%;
     }
 
     h1 {
         color: #fff;
+        padding: 15% 0 15% 0;
+        font-weight: 700;
     }
 
     p {
-        color: #8bb7b8;
-        font-weight: 700;;
+        color: #dbdcdb;
+        font-weight: 700;
+        line-height: 1.5;
+        margin: 10% 0 40% 0;
+        font-size: 110%;
     }
 
     /*
@@ -27,6 +32,7 @@
     #left {
         background-color: #e28525;
     }
+
 
     /*
       Center design
@@ -42,4 +48,14 @@
 
     #right {
         background-color: #00403f;
+    }
+
+    #right > p {
+        margin-bottom: 30%;
+    }
+
+
+
+    .attribution {
+        text-align: center;
     }
