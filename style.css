@@ -13,7 +13,7 @@
 
     h1 {
         color: #fff;
-        padding: 15% 0 15% 0;
+        padding: 15% 0 5% 0;
         font-weight: 700;
     }
 
@@ -22,7 +22,12 @@
         font-weight: 700;
         line-height: 1.5;
         margin: 10% 0 40% 0;
-        font-size: 3rem%;
+        font-size: 1rem;
+    }
+
+    button {
+        width: 80%;
+        height: 12%;
     }
 
     /*
@@ -54,12 +59,6 @@
         border-bottom-right-radius: 5%;
     }
 
-    #right > p {
-        margin-bottom: 30%;
-    }
-
-
-
     .attribution {
         text-align: center;
     }
@@ -67,3 +66,34 @@
     /*
       Media querys for mobile, width: 991px
     */
+
+    @media (max-width: 991px) {
+        h1 {
+            padding-top: 5%;
+            margin-left: 5%;
+            font-size: 3rem;
+        }
+        p {
+            font-size: 2rem;
+            margin: 0 0 10% 5%;
+            padding-right: 5%;
+        }
+        img {
+            width: 20%;
+            margin-left: 5%;
+        }
+        button {
+            margin-left: 5%;
+            margin-bottom: 5%;
+            width: 40%;
+        }
+
+        #left {
+            border-top-right-radius: 5%;
+            border-bottom-left-radius: 0;
+        }
+        #right {
+            border-top-right-radius: 0;
+            border-bottom-left-radius: 5%;
+        }
+    }
